@@ -1,5 +1,5 @@
-export type initialState = {
-  pocemonList?: {
+export type InitialState = {
+  pocemonListType?: {
     data?: any;
     loading?: boolean;
     error?: string;
