@@ -3,7 +3,7 @@ import { get } from "lodash";
 import { toast } from "react-toastify";
 
 const request = axios.create({
-  baseURL: "https://pokeapi.co/api/v2",
+  baseURL: "https://pokeapi.co/api/v2/",
   
 
   params: {},
